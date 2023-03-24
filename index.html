@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>RealTime Chat App</title>
+    
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+    <video src="video.mp4" id="myVideo" muted autoplay loop></video>
+
+    <section class="chat_section">
+
+        <div class="brand">
+            <img src="/logo.png" alt="" class="logo">
+            <h1> Welcome to the Chat App </h1>
+        </div>
+        
+        <div class="message_area"></div>
+        
+        <div>
+            <textarea name="" id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
+        
+        </div>
+    </section>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+    
+</body>
+</html>
